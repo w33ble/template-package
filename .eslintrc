@@ -1,0 +1,15 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "extends": [
+    "prettier"
+  ],
+  "plugins": [
+    "prettier",
+    "import"
+  ],
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}

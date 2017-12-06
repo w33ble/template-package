@@ -1,0 +1,30 @@
+{
+  "name": "@w33ble/template-package",
+  "description": "sao template to generate new packages in a (lerna) monorepo",
+  "version": "0.0.0",
+  "keywords": [
+    "sao",
+    "monorepo",
+    "lerna"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint sao.js"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.2",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "prettier": "^1.9.0",
+    "sao": "^0.22.9"
+  }
+}

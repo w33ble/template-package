@@ -1,0 +1,12 @@
+{
+  "name": "<%= package %>",
+  "version": "0.0.0",
+  "description": "<%= description %>",
+  "main": "src/index.js",
+  "author": "<%= name %> (https://github.com/<%= username %>)",<% if (repository) { %>
+  "repository": "<%= repository %>,<% } %>
+  "license": "MIT"<% if (public) { %>,
+  "publishConfig": {
+    "access": "public"
+  }<% } %>
+}
