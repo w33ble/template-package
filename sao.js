@@ -22,10 +22,16 @@ module.exports = {
     repository: {
       message: 'What repository url/path should be used in package.json?',
     },
+    private: {
+      type: 'confirm',
+      message: 'Should this package be private?',
+      default: false,
+    },
     public: {
       type: 'confirm',
-      message: 'Is this package public?',
+      message: 'Should this package public on npm?',
       default: true,
+      when: a => !a.private,
     },
   },
   gitInit: false,
