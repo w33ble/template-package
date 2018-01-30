@@ -1,11 +1,12 @@
 {
   "name": "<%= package %>",
-  "version": "0.0.0",
+  "version": "0.0.0",<% if (private) { %>
+  "private": true,<% } %>
   "description": "<%= description %>",
   "main": "src/index.js",
   "author": "<%= name %> (https://github.com/<%= username %>)",<% if (repository) { %>
   "repository": "<%= repository %>",<% } %>
-  "license": "MIT"<% if (public) { %>,
+  "license": "MIT"<% if (!private && public) { %>,
   "publishConfig": {
     "access": "public"
   }<% } %>
