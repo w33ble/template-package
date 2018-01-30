@@ -4,7 +4,7 @@
   "description": "<%= description %>",
   "main": "src/index.js",
   "author": "<%= name %> (https://github.com/<%= username %>)",<% if (repository) { %>
-  "repository": "<%= repository %>,<% } %>
+  "repository": "<%= repository %>",<% } %>
   "license": "MIT"<% if (public) { %>,
   "publishConfig": {
     "access": "public"

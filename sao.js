@@ -20,7 +20,7 @@ module.exports = {
       store: true,
     },
     repository: {
-      message: 'What repository path should be used?',
+      message: 'What repository url/path should be used in package.json?',
     },
     public: {
       type: 'confirm',
