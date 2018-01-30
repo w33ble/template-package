@@ -28,6 +28,6 @@ module.exports = {
       default: true,
     },
   },
-  gitInit: true,
+  gitInit: false,
   installDependencies: false,
 };
