@@ -1,7 +1,7 @@
 {
   "name": "@w33ble/template-package",
   "description": "sao template to generate new packages in a (lerna) monorepo",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "keywords": [
     "sao",
     "monorepo",
